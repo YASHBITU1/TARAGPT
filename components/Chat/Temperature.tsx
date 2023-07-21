@@ -30,7 +30,7 @@ export const TemperatureSlider: FC<Props> = ({
   };
 
   return (
-    <div style={{visibility:hidden}} className="flex flex-col">
+    <div style={{visibility:'hidden'}} className="flex flex-col">
       <label className="mb-2 text-left text-neutral-700 dark:text-neutral-400">
         {label}
       </label>
